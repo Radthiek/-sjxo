@@ -1,0 +1,55 @@
+{
+  "botToken": "NTA3NDgyOTg0NzY1NzE4NTM5.DsYoiw.Tmdx4e-1Tz4GHsdmVPH210M9MqQ",
+  "prefix": ".",
+  "ownerId":["428285710588444694"],
+  "staffRoles":["153965665018052608","153965730423898112","256262300472836096", "195197183807586305"],
+  "roles":{
+		"room":"309015593409970177",
+		"mute":"258258209712635915"
+  },
+  "features":{
+		"welcome":true,
+		"osu":true,
+		"mentionSpammer":true,
+		"mute":true,
+		"roleroom":true,
+		"points":true,
+		"economy":true
+  },
+  "welcome":{
+		"password":"hi",
+		"message":"<:ShadeBotWelcome:326815681540784139> **Welcome to the server %MENTION%** <:ShadeBotWelcome:326815681540784139>\n%EXTRAMSG% | *%WELCOMENUM% user(s) have been welcomed today.*",
+		"passwordRoomId":"160191714026455040",
+		"defaultRoleId":"257007364492886016",
+		"welcomeRoomId":"153951788163137536"
+  },
+  "osu":{
+		"key":"osu key https://osu.ppy.sh/p/api",
+		"channels":["208311597284720640", "154210492381003776"]
+	},
+	"mentionSpammer":{
+		"rate":7500,
+		"maxMention":10
+	},
+	"points":{
+		"channels":["333620436296531978", "208311597284720640", "169551601047044096"],
+		"addRoles":["333337469762404362"]
+	},
+	"log":{
+		"joinleave":false,
+		"welcomed":true,
+		"welcomedOther":true,
+		"points":true,
+		"mute":true,
+		"invites":true,
+		"mentionSpammer":true,
+		"links":true,
+		
+		"channelId":"246764157762797568"
+	},
+	"image":{
+		"role": "273599854624636929",
+		"embedColor": "#FFEB3B"
+	},
+	"messageTimeout":15000
+}
